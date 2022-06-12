@@ -191,3 +191,13 @@ label textarea {
     background-color: #000;
     color: #fff;
 }
+
+.home {
+    width: min-content;
+    display: block;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+}
