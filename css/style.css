@@ -74,6 +74,7 @@ li a {
     font-size: 7rem;
     font-weight: 100;
 }
+.card-services p,
 .text-primary {
     line-height: 2.5rem;
 }
@@ -91,4 +92,29 @@ li a {
     font-weight: bold;
     text-decoration: none;
     color: #000;
+}
+
+/*SERVICES*/
+.space-secondary {
+    margin-top: 3rem;
+}
+.services {
+    padding: 8rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.services .title {
+    width: 100%;
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: 100;
+}
+.card-services {
+    width: 33%;
+    min-width: 35rem;
+    padding: 5rem;
+}
+.card-services h3 {
+    margin-bottom: 1rem;
 }
